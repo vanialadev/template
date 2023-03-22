@@ -14,6 +14,7 @@ junit = "4.13.2"
 androidxTestExt = "1.1.5"
 androidxTestEspresso = "3.5.1"
 hilt = "2.45"
+timber = "5.0.1"
 
 [libraries]
 androidx-core = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
@@ -25,6 +26,7 @@ androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref =
 androidx-test-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxTestEspresso" }
 hilt-android = { group = "com.google.dagger",name ="hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger",name ="hilt-compiler", version.ref = "hilt" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
