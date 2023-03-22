@@ -54,8 +54,9 @@ dependencies {
     kapt(libs.hilt.compiler)
 
     implementation(libs.timber)
-
     implementation(libs.androidx.splshscreen)
+    implementation(libs.androidx.viewmodel)
+    implementation(libs.androidx.activity)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext)
