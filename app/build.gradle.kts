@@ -11,7 +11,6 @@ android {
         applicationId = "br.com.vaniala.template"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = 1
         versionCode = libs.versions.versionCode.get().toInt()
         versionName = "1.0"
 
@@ -27,13 +26,17 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_11.toString()
     }
+
+    viewBinding.isEnabled = true
 }
 
 dependencies {
