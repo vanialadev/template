@@ -55,6 +55,8 @@ dependencies {
 
     implementation(libs.timber)
 
+    implementation(libs.androidx.splshscreen)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext)
     androidTestImplementation(libs.androidx.test.espresso)
